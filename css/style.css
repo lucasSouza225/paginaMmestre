@@ -40,8 +40,13 @@ main h2 {
     padding: 15px;
     border-radius: 50px;
     margin-right: 10px;
-    border: 2px  solid rgba(128, 128, 128, 0.375);
+  /*   border: 2px  solid rgba(128, 128, 128, 0.375); */
+
 }
+
+.erro {
+    border: 2px solid rgba(255, 0, 0, 0.485);
+  }
 
 #email::placeholder {
     color: #00000062;
@@ -49,6 +54,20 @@ main h2 {
 
 #formulario {
     margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#erro {
+    color: #ff0000;
+    visibility: hidden;
 }
 
 button {
@@ -59,7 +78,14 @@ button {
     font-weight: bold;
     border: none;
     box-shadow: 2px 2px 10px #4d7cf383;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -35px;
 }
+
+button:hover {
+    background-color: #1e4eb5;}
 
 #ilustracao img {
     width: 80%;
