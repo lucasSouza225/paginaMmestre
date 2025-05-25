@@ -11,6 +11,6 @@ function validarEmail() {
     } else {
         erro.style.visibility = "hidden";
         emailInput.classList.remove("erro");
-        alert("Email válido! Você será notificado.");  // aqui você pode dicionar que quiser fazer com o e-mail válido
+        alert("Email válido! Você será notificado.");  // aqui vai aparecer se  e-mail válido
     }
 }
